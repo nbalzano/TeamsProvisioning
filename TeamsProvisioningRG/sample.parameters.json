@@ -3,31 +3,30 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "appName": {
-        "value": "(your app name)"
+        "value": "TeamsCreatorApp"
       },
       "repoUrl": {
-        "value": "(your github repo URL like https://github.com/BobGerman/TeamsProvisioning.git)"
+        "value": "https://github.com/nbalzano/TeamsProvisioning.git"
       },
       "branch": {
-        "value": "(your github branch like master"
+        "value": "master"
       },
       "TENANT": {
-        "value": "(your tenant ID)"
+        "value": "abc4f05e-c344-40df-8e6e-6cc147542aa9"
       },
       "TENANT_NAME": {
-        "value": "(your tenant name without .onmicrosoft.com)"
+        "value": "training032020"
       },
       "CLIENT_ID": {
-        "value": "(your Azure AD v1 app id with app permissions)"
+        "value": "a2d03299-08b1-4858-ab66-9af471f26639"
       },
       "CLIENT_SECRET": {
-        "value": "@Microsoft.KeyVault(SecretUri=(url of your keyvault secret))"
+        "value": "@Microsoft.KeyVault(SecretUri=https://teamcreatorkeyvault.vault.azure.net/secrets/TeamCreatorKeyVault/6bcf849e680d4b04a9d6784fdbc431e4)"
       },
-      "TEMPLATE_SITE_URL": {
-        "value": "(your SharePoint site for holding templates like /sites/TeamsProvisioning)"
+      "TEMPLATE_SITE_URL": {ding)"
       },
       "TEMPLATE_LIB_NAME": {
-        "value": "(your SharePoint document library for templates like Templates)"
+        "value": "TeamCreatorLibrary"
       }
     }
   }
