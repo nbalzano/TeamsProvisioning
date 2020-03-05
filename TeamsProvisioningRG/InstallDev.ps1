@@ -1,6 +1,6 @@
 # Provision storage and function app
 .\Deploy-AzureResourceGroup.ps1 `
-    -ResourceGroupLocation West Europe `
+    -ResourceGroupLocation westeurope `
     -ResourceGroupName TeamCreatorRG `
     -TemplateParametersFile dev.parameters.json
 
