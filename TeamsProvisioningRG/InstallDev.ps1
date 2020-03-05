@@ -5,7 +5,7 @@
     -TemplateParametersFile dev.parameters.json
 
 # Ensure storage queues are in place
-$storageAccount = Get-AzureRmStorageAccount | Where-Object ResourceGroupName -eq "TeamCreatorRG2"
+$storageAccount = Get-AzureRmStorageAccount | Where-Object ResourceGroupName -eq "TeamCreatorRG"
 $storageContext = $storageAccount.Context
 New-AzureStorageQueue -Name "create-team-request-queue" -Context $storageContext -ErrorAction Ignore
 New-AzureStorageQueue -Name "create-team-completion-queue" -Context $storageContext -ErrorAction Ignore
