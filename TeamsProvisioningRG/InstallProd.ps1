@@ -1,7 +1,7 @@
 r# Provision storage and function app
 .\Deploy-AzureResourceGroup.ps1 `
     -ResourceGroupLocation westeurope `
-    -ResourceGroupName TeamCreatorRG2 `
+    -ResourceGroupName TeamCreatorRG `
     -TemplateParametersFile prod.parameters.json
 
 # Ensure storage queues are in place
