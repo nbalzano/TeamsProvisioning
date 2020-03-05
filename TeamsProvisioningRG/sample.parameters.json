@@ -23,7 +23,8 @@
       "CLIENT_SECRET": {
         "value": "@Microsoft.KeyVault(SecretUri=https://teamcreatorkeyvault.vault.azure.net/secrets/TeamCreatorKeyVault/6bcf849e680d4b04a9d6784fdbc431e4)"
       },
-      "TEMPLATE_SITE_URL": {ding)"
+      "TEMPLATE_SITE_URL": { 
+        "value": "/sites/TeamsProviding""
       },
       "TEMPLATE_LIB_NAME": {
         "value": "TeamCreatorLibrary"
